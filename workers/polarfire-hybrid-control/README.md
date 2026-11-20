@@ -1,6 +1,6 @@
 # PolarFire Hybrid Control
 
-Hybrid PID and neural-network correction on a PolarFire SoC Icicle Kit (MPFS250T), using SmartHLS C++ and CoreVectorBlox V250. On the kit, I measured a median watchdog trip time of 2.000 ms over 120 trips with replayed input. The processor-paced loop completed an 8.01-hour soak at 3,319 Hz. Jason directed coding agents and checked claims with local critics. [Tychon quantum sensing](../../README.md) links the other workstreams.
+Hybrid PID and neural-network correction on a PolarFire SoC Icicle Kit (MPFS250T), using SmartHLS C++ and CoreVectorBlox V250. On the kit, I measured a median watchdog trip time of 2.000 ms over 120 trips with replayed input. The processor-paced loop completed an 8.01-hour soak at 3,319 Hz. Jason directed coding agents and checked claims with local critics. [Agent-run hardware lab](../../README.md) links the other workstreams.
 
 ## Where this fits
 

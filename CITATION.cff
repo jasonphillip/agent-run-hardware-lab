@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: >-
   If you refer to this work, please cite it as below.
 type: software
-title: "Tychon quantum sensing: an agent-orchestrated NV-magnetometer build"
+title: "Agent-run hardware lab: control software for NV-diamond quantum magnetometers on a PolarFire SoC FPGA"
 version: 1.2.0
 date-released: "2026-10-28"
 doi: 10.5281/zenodo.23732019

@@ -1,4 +1,4 @@
-# Tychon quantum sensing: an agent-orchestrated NV-magnetometer build
+# Agent-run hardware lab: control software for NV-diamond quantum magnetometers on a PolarFire SoC FPGA
 
 [![CPU benchmark](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/bench.yml/badge.svg)](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/bench.yml) [![Tests](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/tests.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23323384.svg)](https://doi.org/10.5281/zenodo.23323384) [![Ask DeepWiki](docs/assets/deepwiki-badge.svg)](https://deepwiki.com/jasonphillip/tychon-quantum-sensing)
 

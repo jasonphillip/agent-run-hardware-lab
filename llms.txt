@@ -1,4 +1,4 @@
-# Tychon quantum sensing
+# Agent-run hardware lab
 
 > NV-diamond spectrum simulation, scalar and vector field estimation, and PolarFire SoC control. The kit watchdog tripped at a median 2.000 ms over 120 trips with replayed input. Jason directed coding agents, and local critics checked written claims against project evidence.
 

@@ -2,7 +2,7 @@
 
 Edge-optimized neural networks for real-time ODMR spectral analysis. Includes quantization-aware training pipeline, VectorBlox FPGA export chain, and a five-metric evaluation framework for magnetometry applications.
 
-Consumes synthetic ODMR datasets from [`nv-sensor-sim`](../nv-sensor-sim/README.md) and produces INT8-quantized model artifacts for [`polarfire-hybrid-control`](../polarfire-hybrid-control/README.md). Part of [Tychon quantum sensing](../../README.md).
+Consumes synthetic ODMR datasets from [`nv-sensor-sim`](../nv-sensor-sim/README.md) and produces INT8-quantized model artifacts for [`polarfire-hybrid-control`](../polarfire-hybrid-control/README.md). Part of [Agent-run hardware lab](../../README.md).
 
 ## Where this fits
 
