@@ -20,7 +20,7 @@
 - [Saved-evidence verification](docs/reproduce-evidence.md): platform-aware installation, smoke check, and one offline verification command with explicit pinned kit evidence. No training or inference during saved-output verification.
 - [CPU benchmark](bench/README.md): synthetic scalar benchmark, prerequisites, reference results, and tolerances. A local run creates bench/results.json.
 - [Benchmark configuration](bench/expected.json): expected metrics and tolerances, not a fresh run log.
-- [Benchmark runs](https://github.com/jasonphillip/tychon-quantum-sensing/actions/workflows/bench.yml): execution logs tied to individual commits.
+- [Benchmark runs](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/bench.yml): execution logs tied to individual commits.
 - [Test commands](.github/workflows/tests.yml): dependencies and per-component test invocations.
 - [Deployed scalar model on the kit](workers/odmr-edge-ml/docs/deployed_model_on_kit_2026-10.md): dataset recipe, model contract, stage comparisons, synthetic-label errors, and kit timing.
 - [Known-axis scalar bias comparison](workers/odmr-edge-ml/docs/scalar_bias_design_2026-10.md): classical measurement-design comparison on a sealed synthetic set, field along one known NV axis; NumPy-only saved-output checker; not a network result.

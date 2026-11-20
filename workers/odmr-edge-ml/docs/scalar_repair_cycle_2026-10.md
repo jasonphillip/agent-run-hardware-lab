@@ -56,7 +56,7 @@ Run the public checker from a fresh clone, with only NumPy installed, and write 
 ```sh
 ROOT=/tmp/tychon-public-acceptance
 SHA=<40-character public commit>
-git clone https://github.com/jasonphillip/tychon-quantum-sensing.git "$ROOT/public"
+git clone https://github.com/jasonphillip/agent-run-hardware-lab.git "$ROOT/public"
 git -C "$ROOT/public" checkout --detach "$SHA"
 python3 -m venv "$ROOT/.venv" && "$ROOT/.venv/bin/pip" install numpy==2.1.3
 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 "$ROOT/.venv/bin/python" \
@@ -71,7 +71,7 @@ The checker refuses an output path inside the clone or an existing output file. 
 
 ```sh
 workers/odmr-edge-ml/scripts/public_scalar_validation_acceptance.sh \
-  https://github.com/jasonphillip/tychon-quantum-sensing.git <40-character public commit> <empty directory>
+  https://github.com/jasonphillip/agent-run-hardware-lab.git <40-character public commit> <empty directory>
 ```
 
 Run on 2026-10-15 against public commit `5dacae6caafcd8d739ff8a8481304bb5255c3ffc` (Python 3.13.11, NumPy 2.1.3): PASS, 12,288 checks, the STOP decision reproduced, clean clone afterwards. The report records its completion time (`completed_utc`), so its file hash differs between runs; a second run of the command above on the same commit produced a report identical in every other field.

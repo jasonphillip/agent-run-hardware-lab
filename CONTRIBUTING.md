@@ -17,7 +17,7 @@ Reproduction reports should name the data and execution target. The [reviewer gu
 | Change the dashboard | [Dashboard guide](demo/fpga-demo-dashboard/README.md) |
 | Review current claims | [Reviewer guide](docs/start-here-reviewers.md) and [engineering decisions](docs/engineering-decisions.md) |
 
-Use the [issue tracker](https://github.com/jasonphillip/tychon-quantum-sensing/issues) to find bounded tasks.
+Use the [issue tracker](https://github.com/jasonphillip/agent-run-hardware-lab/issues) to find bounded tasks.
 State which issue or result your change addresses.
 Do not start a large dataset search, acquisition, training run, or hardware port from a documentation suggestion.
 

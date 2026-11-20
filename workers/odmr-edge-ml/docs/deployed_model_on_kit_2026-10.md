@@ -92,7 +92,7 @@ The acceptance script performs the cloning and checker run in its own empty work
 
 ```bash
 "$PWD/scripts/public_kit_acceptance.sh" \
-  https://github.com/jasonphillip/tychon-quantum-sensing.git PUBLICATION_SHA \
+  https://github.com/jasonphillip/agent-run-hardware-lab.git PUBLICATION_SHA \
   https://github.com/jasonphillip/polarfire-agent-skills.git 53acad6aff3424e36662972348ef535392f4859b \
   /tmp/tychon-public-acceptance-run
 ```

@@ -2,7 +2,7 @@
 # The default rules apply. One allowlist: the scalar target-repair bundle manifest lists file paths next to
 # their SHA-256 hashes; a path containing "ACCESS" beside a 64-hex hash trips the generic-api-key rule.
 # Those values are content hashes of files in this repository, not credentials.
-title = "tychon-quantum-sensing"
+title = "agent-run-hardware-lab"
 
 [extend]
 useDefault = true

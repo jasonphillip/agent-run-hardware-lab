@@ -32,7 +32,7 @@ Missing evidence or a hash mismatch must fail; this command does not validate ev
 
 `make bench` trains and evaluates the separate synthetic CPU benchmark. The [benchmark workflow](.github/workflows/bench.yml) runs it on Ubuntu.
 
-The command generates `bench/results.json`; that file is absent from a clean checkout. [bench/README.md](bench/README.md) records reference results. [bench/expected.json](bench/expected.json) defines reference values and tolerances. The [workflow run logs](https://github.com/jasonphillip/tychon-quantum-sensing/actions/workflows/bench.yml) provide execution evidence for their associated commits.
+The command generates `bench/results.json`; that file is absent from a clean checkout. [bench/README.md](bench/README.md) records reference results. [bench/expected.json](bench/expected.json) defines reference values and tolerances. The [workflow run logs](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/bench.yml) provide execution evidence for their associated commits.
 
 The root Makefile has no `test` target. The [test workflow](.github/workflows/tests.yml) lists dependencies, working directories, and test commands by component. Component documentation describes additional requirements.
 

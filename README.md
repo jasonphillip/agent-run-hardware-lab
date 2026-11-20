@@ -1,9 +1,9 @@
 # Tychon quantum sensing: an agent-orchestrated NV-magnetometer build
 
-[![CPU benchmark](https://github.com/jasonphillip/tychon-quantum-sensing/actions/workflows/bench.yml/badge.svg)](https://github.com/jasonphillip/tychon-quantum-sensing/actions/workflows/bench.yml) [![Tests](https://github.com/jasonphillip/tychon-quantum-sensing/actions/workflows/tests.yml/badge.svg)](https://github.com/jasonphillip/tychon-quantum-sensing/actions/workflows/tests.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23323384.svg)](https://doi.org/10.5281/zenodo.23323384) [![Ask DeepWiki](docs/assets/deepwiki-badge.svg)](https://deepwiki.com/jasonphillip/tychon-quantum-sensing)
+[![CPU benchmark](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/bench.yml/badge.svg)](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/bench.yml) [![Tests](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/tests.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23323384.svg)](https://doi.org/10.5281/zenodo.23323384) [![Ask DeepWiki](docs/assets/deepwiki-badge.svg)](https://deepwiki.com/jasonphillip/agent-run-hardware-lab)
 
 <p align="center">
-  <a href="https://deepwiki.com/jasonphillip/tychon-quantum-sensing"><img src="docs/assets/ask-deepwiki-large.svg" alt="Ask this repository a question on DeepWiki. No account needed." width="560"></a>
+  <a href="https://deepwiki.com/jasonphillip/agent-run-hardware-lab"><img src="docs/assets/ask-deepwiki-large.svg" alt="Ask this repository a question on DeepWiki. No account needed." width="560"></a>
 </p>
 
 This repository connects NV-diamond spectrum simulation, field estimation, and a bounded neural correction to a classical controller on a PolarFire SoC development kit. Nitrogen-vacancy (NV) centres reveal magnetic fields through optically detected magnetic resonance (ODMR) spectra.
@@ -49,7 +49,7 @@ To check the published kit evidence against its saved predictions, follow the [r
 
 The photo shows the production Icicle Kit in its enclosure, the board the recording ran on ([lab page](docs/lab.md)).
 
-If this is useful, star the repository, [report a reproduction result](https://github.com/jasonphillip/tychon-quantum-sensing/issues/1), or [say how you might use a component](https://github.com/jasonphillip/tychon-quantum-sensing/discussions) in Discussions. Small first tasks carry the [good first issue](https://github.com/jasonphillip/tychon-quantum-sensing/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) label.
+If this is useful, star the repository, [report a reproduction result](https://github.com/jasonphillip/agent-run-hardware-lab/issues/1), or [say how you might use a component](https://github.com/jasonphillip/agent-run-hardware-lab/discussions) in Discussions. Small first tasks carry the [good first issue](https://github.com/jasonphillip/agent-run-hardware-lab/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) label.
 
 ## Representative results
 
@@ -98,9 +98,9 @@ The [simulator](workers/nv-sensor-sim/), [scalar models](workers/odmr-edge-ml/),
 | Review results and reproduce saved metrics | [Results index](docs/results-index.md), [reproduction guide](docs/reproduce-evidence.md), [reviewer path](docs/start-here-reviewers.md) |
 | Inspect decisions and conversation evidence | [Engineering decisions](docs/engineering-decisions.md), [conversation record](planning/excerpts/README.md) |
 | Generate data or take a model to the kit | [Synthetic-data walkthrough](docs/synthetic-data.md), [TFLite-to-V250 guide](docs/model-to-v250.md) |
-| Plan a meaningful next study or contribute | [Next sensing study](docs/next-sensing-study.md), [contribution guide](CONTRIBUTING.md), [Discussions](https://github.com/jasonphillip/tychon-quantum-sensing/discussions) |
+| Plan a meaningful next study or contribute | [Next sensing study](docs/next-sensing-study.md), [contribution guide](CONTRIBUTING.md), [Discussions](https://github.com/jasonphillip/agent-run-hardware-lab/discussions) |
 | Learn the physics or read it as an agent | [Primer](docs/primer.md), [glossary](docs/glossary.md), [repository map](AGENTS.md), [llms.txt](llms.txt) |
-| Ask questions without a GitHub account | [DeepWiki chat](https://deepwiki.com/jasonphillip/tychon-quantum-sensing) answers on a web page. For your own assistant, change `github.com` to `gitingest.com` in this repository's URL ([digest](https://gitingest.com/jasonphillip/tychon-quantum-sensing)), then paste or upload the digest into ChatGPT, Claude or another chatbot. |
+| Ask questions without a GitHub account | [DeepWiki chat](https://deepwiki.com/jasonphillip/agent-run-hardware-lab) answers on a web page. For your own assistant, change `github.com` to `gitingest.com` in this repository's URL ([digest](https://gitingest.com/jasonphillip/agent-run-hardware-lab)), then paste or upload the digest into ChatGPT, Claude or another chatbot. |
 | See the scale of the work in traditional terms | [What this would traditionally cost to build](docs/traditional-cost.md), with the sources behind each number |
 
 ## License, citation and history

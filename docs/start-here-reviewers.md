@@ -28,7 +28,7 @@ If you cannot run it:
 
 1. Read the recorded reference in [bench/README.md](../bench/README.md).
 2. Inspect reference values and acceptance thresholds in [bench/expected.json](../bench/expected.json).
-3. Open [CPU synthetic benchmark workflow runs](https://github.com/jasonphillip/tychon-quantum-sensing/actions/workflows/bench.yml).
+3. Open [CPU synthetic benchmark workflow runs](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/bench.yml).
 4. Select a run for the commit under review and open its `bench` job.
 5. Inspect **Install in venv, run benchmark, enforce expected metrics**, including its output and conclusion.
 

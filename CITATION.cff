@@ -36,8 +36,8 @@ authors:
     given-names: Jason
     affiliation: "Tychon AI"
     website: "https://tychonai.com/"
-repository-code: "https://github.com/jasonphillip/tychon-quantum-sensing"
-url: "https://github.com/jasonphillip/tychon-quantum-sensing"
+repository-code: "https://github.com/jasonphillip/agent-run-hardware-lab"
+url: "https://github.com/jasonphillip/agent-run-hardware-lab"
 keywords:
   - quantum sensing
   - NV diamond

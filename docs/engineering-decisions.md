@@ -16,7 +16,7 @@ This project used coding agents for implementation, review and experiment execut
 
 **Scope.** Synthetic, easy-crossing benchmark; no demonstrated hardware benefit or dynamic-range extension follows from this comparison.
 
-Evidence: [review](../orchestrator/tvw/audits/design-review-odmr-vector-2026-07-01.md), [correction dispatch](../orchestrator/tvw/audits/dispatch-2a-rebaseline-2026-07-01.md), [corrected results](../workers/odmr-vector-tracking/docs/increment2a_results.md), [human-role account](case-study.md#what-the-reviews-caught), [implementation commit](https://github.com/jasonphillip/tychon-quantum-sensing/commit/154f2c9b502f5a63d87377b51aa766d39b78fec0).
+Evidence: [review](../orchestrator/tvw/audits/design-review-odmr-vector-2026-07-01.md), [correction dispatch](../orchestrator/tvw/audits/dispatch-2a-rebaseline-2026-07-01.md), [corrected results](../workers/odmr-vector-tracking/docs/increment2a_results.md), [human-role account](case-study.md#what-the-reviews-caught), [implementation commit](https://github.com/jasonphillip/agent-run-hardware-lab/commit/154f2c9b502f5a63d87377b51aa766d39b78fec0).
 
 ## 2. Test actual fallback rather than count watchdog trips
 
@@ -32,7 +32,7 @@ Evidence: [review](../orchestrator/tvw/audits/design-review-odmr-vector-2026-07-
 
 **Scope.** This is register-level observation on one development kit. No physical actuator or live diamond sensor is demonstrated by these tests. A processor that remains frozen still receives no fallback output until it resumes. Recovery steps of 0.010–0.013 (medians; the raw check records maxima up to 0.065) remain above the 0.001 slew limit; 11 of 104 forced starts also showed discontinuities in limiting or repeated-trip conditions. The correction closes the observed short-timeout hole, not every safety obligation.
 
-Evidence: [test plan and before/after results](../workers/polarfire-hybrid-control/docs/watchdog_fallback_test_plan.md), [before summary](../workers/polarfire-hybrid-control/libero/reports/2026-10-09-watchdog-fallback/rawcheck_summary.txt), [after summary](../workers/polarfire-hybrid-control/libero/reports/2026-10-09-trip-start-fix/rawcheck_summary.txt), [helper](../workers/polarfire-hybrid-control/firmware/linux/wd_trip_start.h), [implementation commit](https://github.com/jasonphillip/tychon-quantum-sensing/commit/b9e424aa1fafaea4cf3376dabafb2c4f8d9269e3).
+Evidence: [test plan and before/after results](../workers/polarfire-hybrid-control/docs/watchdog_fallback_test_plan.md), [before summary](../workers/polarfire-hybrid-control/libero/reports/2026-10-09-watchdog-fallback/rawcheck_summary.txt), [after summary](../workers/polarfire-hybrid-control/libero/reports/2026-10-09-trip-start-fix/rawcheck_summary.txt), [helper](../workers/polarfire-hybrid-control/firmware/linux/wd_trip_start.h), [implementation commit](https://github.com/jasonphillip/agent-run-hardware-lab/commit/b9e424aa1fafaea4cf3376dabafb2c4f8d9269e3).
 
 ## 3. Remove an objective that hurt the outcome it was meant to support
 
@@ -48,4 +48,4 @@ Evidence: [test plan and before/after results](../workers/polarfire-hybrid-contr
 
 **Scope.** FP32 synthetic evaluation only. Field-cone lock remained about 0.10, with 108/120 sequences lost in every arm. The intervals describe sequence variation conditional on each trained run, not an exhaustive distribution over training seeds. Validation-based checkpoint selection and training lengths differ between arms. No INT8 export or on-target execution is shown for this tracker, and the default change does not retrain existing checkpoints.
 
-Evidence: [initial ablation](../workers/odmr-vector-tracking/docs/full_vector_metric_and_association_ablation.md), [three-seed study](../workers/odmr-vector-tracking/docs/association_loss_multiseed.md), [result table](../workers/odmr-vector-tracking/docs/association_loss_multiseed_table.json), [training commands](../workers/odmr-vector-tracking/experiments/noassoc_multiseed.sh), [current configuration](../workers/odmr-vector-tracking/configs/train_increment2a.yaml), [adoption commit](https://github.com/jasonphillip/tychon-quantum-sensing/commit/755c49e09c47f1d92c47199d46302d5ee40bb11d).
+Evidence: [initial ablation](../workers/odmr-vector-tracking/docs/full_vector_metric_and_association_ablation.md), [three-seed study](../workers/odmr-vector-tracking/docs/association_loss_multiseed.md), [result table](../workers/odmr-vector-tracking/docs/association_loss_multiseed_table.json), [training commands](../workers/odmr-vector-tracking/experiments/noassoc_multiseed.sh), [current configuration](../workers/odmr-vector-tracking/configs/train_increment2a.yaml), [adoption commit](https://github.com/jasonphillip/agent-run-hardware-lab/commit/755c49e09c47f1d92c47199d46302d5ee40bb11d).
