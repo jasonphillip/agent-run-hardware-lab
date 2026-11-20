@@ -1,9 +1,9 @@
 # Agent-run hardware lab: control software for NV-diamond quantum magnetometers on a PolarFire SoC FPGA
 
-[![CPU benchmark](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/bench.yml/badge.svg)](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/bench.yml) [![Tests](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/tests.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23323384.svg)](https://doi.org/10.5281/zenodo.23323384) [![Ask DeepWiki](docs/assets/deepwiki-badge.svg)](https://deepwiki.com/jasonphillip/tychon-quantum-sensing)
+[![CPU benchmark](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/bench.yml/badge.svg)](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/bench.yml) [![Tests](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/jasonphillip/agent-run-hardware-lab/actions/workflows/tests.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23323384.svg)](https://doi.org/10.5281/zenodo.23323384) [![Ask DeepWiki](docs/assets/deepwiki-badge.svg)](https://deepwiki.com/jasonphillip/agent-run-hardware-lab)
 
 <p align="center">
-  <a href="https://deepwiki.com/jasonphillip/tychon-quantum-sensing"><img src="docs/assets/ask-deepwiki-large.svg" alt="Ask this repository a question on DeepWiki. No account needed." width="560"></a>
+  <a href="https://deepwiki.com/jasonphillip/agent-run-hardware-lab"><img src="docs/assets/ask-deepwiki-large.svg" alt="Ask this repository a question on DeepWiki. No account needed." width="560"></a>
 </p>
 
 This repository connects NV-diamond spectrum simulation, field estimation, and a bounded neural correction to a classical controller on a PolarFire SoC development kit. Nitrogen-vacancy (NV) centres reveal magnetic fields through optically detected magnetic resonance (ODMR) spectra.
@@ -100,7 +100,7 @@ The [simulator](workers/nv-sensor-sim/), [scalar models](workers/odmr-edge-ml/),
 | Generate data or take a model to the kit | [Synthetic-data walkthrough](docs/synthetic-data.md), [TFLite-to-V250 guide](docs/model-to-v250.md) |
 | Plan a meaningful next study or contribute | [Next sensing study](docs/next-sensing-study.md), [contribution guide](CONTRIBUTING.md), [Discussions](https://github.com/jasonphillip/agent-run-hardware-lab/discussions) |
 | Learn the physics or read it as an agent | [Primer](docs/primer.md), [glossary](docs/glossary.md), [repository map](AGENTS.md), [llms.txt](llms.txt) |
-| Ask questions without a GitHub account | [DeepWiki chat](https://deepwiki.com/jasonphillip/tychon-quantum-sensing) answers on a web page. For your own assistant, change `github.com` to `gitingest.com` in this repository's URL ([digest](https://gitingest.com/jasonphillip/agent-run-hardware-lab)), then paste or upload the digest into ChatGPT, Claude or another chatbot. |
+| Ask questions without a GitHub account | [DeepWiki chat](https://deepwiki.com/jasonphillip/agent-run-hardware-lab) answers on a web page. For your own assistant, change `github.com` to `gitingest.com` in this repository's URL ([digest](https://gitingest.com/jasonphillip/agent-run-hardware-lab)), then paste or upload the digest into ChatGPT, Claude or another chatbot. |
 | See the scale of the work in traditional terms | [What this would traditionally cost to build](docs/traditional-cost.md), with the sources behind each number |
 
 ## License, citation and history
