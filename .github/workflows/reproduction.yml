@@ -13,7 +13,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        runner: [ubuntu-24.04, ubuntu-24.04-arm, macos-14]
+        runner: [ubuntu-24.04, ubuntu-24.04-arm, macos-15]
     runs-on: ${{ matrix.runner }}
     timeout-minutes: 25
     env:
@@ -31,7 +31,7 @@ jobs:
         env:
           RUNNER_LABEL: ${{ matrix.runner }}
         run: |
-          python -c 'import os,platform; label=os.environ["RUNNER_LABEL"]; expected=("arm64","aarch64") if label in ("macos-14","ubuntu-24.04-arm") else ("x86_64","AMD64"); print(platform.platform(), platform.machine()); assert platform.machine() in expected'
+          python -c 'import os,platform; label=os.environ["RUNNER_LABEL"]; expected=("arm64","aarch64") if label in ("macos-15","ubuntu-24.04-arm") else ("x86_64","AMD64"); print(platform.platform(), platform.machine()); assert platform.machine() in expected'
       - name: Install pinned CPU environment
         run: make install BENCH_PY=python VENV="$RUNNER_TEMP/install-env"
       - name: Imports and four disposable spectra (no training or inference)
