@@ -11,7 +11,7 @@ This archive connects the 2025 SBIR Phase I proposal, FX255-PCSO2-0044 under top
 - The wait spanned the [federal shutdown](https://piv.opm.gov/chcoc/latest-memos/employee-pay-leave-benefits-and-other-human-resources-programs-affected-by-the-lapse-in-appropriations/) and the [SBIR authorization lapse](https://www.nist.gov/tpo/small-business-innovation-research-program-sbir). These records do not show that either caused this particular delay.
 - The proposed team included Jason and three additional engineering specialists: one PhD and two master's-level engineers.
 - Without funding for the team, Jason continued with AI agents. He owned architecture, experiments, debugging and evidence review.
-- He prepared a full technical report before the decision. Version 3.4 is dated May 3, 2026, with a cover date of May 4. The report is privately retained.
+- He prepared a full technical report before the decision. Version 3.4 is dated May 3, 2026, nine days before the decision notice, with a cover date of May 4. The report is privately retained.
 - The [case study](../case-study.md#timeline) places these events in the wider timeline.
 
 The proposal describes intended work. Its performance promises, staffing plans, and product plans are not delivered results.

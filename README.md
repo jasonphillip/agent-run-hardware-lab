@@ -111,7 +111,7 @@ The worker repositories were merged with original authors and dates. [COMMIT-MAP
 
 ## Background
 
-I submitted an SBIR Phase I proposal during the first week of August 2025. The proposed team included three additional engineering specialists. I expected a decision in approximately 90 days. The notice arrived on May 12, 2026, roughly nine months later. The wait spanned the federal shutdown and SBIR authorization lapse. The proposal was not selected, and no award or contract resulted. The [proposal record](docs/proposal/README.md) holds the chronology and crosswalk.
+I submitted an SBIR Phase I proposal in the first week of August 2025 and expected a decision in about 90 days. The decision took nine months, a wait that spanned the federal shutdown and the SBIR authorization lapse. During that wait I paid for the work myself and did it with coding agents in place of the three engineering specialists on the proposed team. The full technical report is dated May 3, 2026. The not-selected notice arrived nine days later, on May 12. The [proposal record](docs/proposal/README.md) holds the chronology and crosswalk.
 
 I continued the build with coding agents and extended the work into on-board inference, controller measurements, and hierarchical INT8 model experiments. A conservative audit of selected archived LLM records counted **1,357 submitted interactions**, **217 identified conversations and coding sessions**, and **113 distinct activity dates**, from July 2, 2025 through October 15, 2026. [Methodology and aggregate data](docs/workflow-retrospective.md#activity-count-methodology).
 
